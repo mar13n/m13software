@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login by feproldo</title>
+</head>
+<body>
+	<div class="box">
+		<form autocomplete="off">
+			<div class="divimg"></div>
+			<img src="remove.png" alt="img" class="imgg" id="imgggg">
+			<h2>BananTap Premium</h2>
+			<div class="inputBox">
+				<input type="password" required="required" id="pass" placeholder="Enter your key">
+				<i></i>
+			</div>
+			<input type="button" value="Auth" onclick="PassCheck()">
+		</form>
+	</div>
+</body>
+
+<style>
+.divimg{
+	margin-top:-40px;
+	position: absolute;
+	width: 55px; 
+	height: 55px;
+	align-self: center;
+	border: 3px solid rgb(99, 99, 99);
+	border-radius: 100%;
+}
+body 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.box 
+{
+	box-shadow: 12px -12px 2px 1px rgba(0, 0, 0, 0.2);
+	position: relative;
+	width: 380px;
+	height: 250px;
+	background: #000000;
+	border-radius: 8px;
+	overflow: hidden;
+}
+input[type="button"]
+{
+    width: 102%;
+    height: 40px;
+    color: #fff;
+    background-color: #0A2e90;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 0 8px;
+    margin: 5px 0;
+    font-size:15px;
+}
+
+
+.inputBox 
+{
+	position: relative;
+	width: 300px;
+	margin-top: 15px;
+}
+.imgg {
+position: absolute;
+width: 50px;
+height: 50px;
+align-self: center;
+margin-top:-34.5px;
+}
+form 
+{
+	position: absolute;
+	inset: 2px;
+	background: #28292d00;
+	padding: 50px 40px;
+	border-radius: 8px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+}
+h2 
+{
+	margin-top: 35px;
+	color: #ffffff;
+	font-weight: 1000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+.inputBox input 
+{
+	position: relative;
+	width: 100%;
+    height: 30px;
+    background: rgb(0, 0, 0);
+    border-color: #171bff; 
+	color: #ffffff;
+	font-size: 1em; 
+	letter-spacing: 0.05em;
+}
+</style>
+<script>
+function PassCheck(a) {
+	a = document.getElementById("pass").value
+  if (a == "twoDay23_IPA"||a == "tp568u7_IPA"||a == "123guu72_IPA"||a == "Hsd73Ua_IPA"||a == "habeme228_IPA"||a == "jua729U_IPA"||a == "Hkui56o_IPA"||a == "loa027K_IPA"||a == "ge759Ha_IPA"||a == "Jea278J_IPA"||a == "LEa6_IPA"|| a == "aoi186G_IPA"){
+  var image = document.getElementById("imgggg");
+		image.src = "./check.png"
+    window.location.href = "https://banantapok.github.io/premium/colo/colo.html"; /* сюда линк на твой софт */
+
+//чит
+  }
+  else {
+    var image = document.getElementById("imgggg");
+		image.src = "./remove.png"
+   document.write(" ");
+  }
+}
+</script>
+</html>
